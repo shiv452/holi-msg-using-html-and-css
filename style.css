@@ -1,0 +1,57 @@
+body{
+      background: linear-gradient(to right,skyblue,rgb(185, 85, 85));
+      background-size: cover;
+      
+}
+
+
+
+h2{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 8em;
+  font-family: 'Times New Roman',cursive;
+  background: url(/images.jpeg);
+  -webkit-background-clip: text;
+  -webkit-animation: background-animation 12s linear infinite;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+@keyframes background-animation{
+
+0%{
+      background-position:  0 0;
+      }
+
+100%{
+      background-position:  100% 50%;
+      }
+
+}
+
+img{
+  position: relative;
+  left: 150px;
+  widows: 50%;
+  height: 210px;
+}
+
+p{
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background:url(/holi-message.jpg);
+  background-size: cover;
+  color: black;
+  border: 160px;
+  border-radius: 50%;
+  
+}
+
+

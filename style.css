@@ -14,8 +14,10 @@ h2{
   font-size: 8em;
   font-family: 'Times New Roman',cursive;
   background: url(/images.jpeg);
+      background-clip: text;
   -webkit-background-clip: text;
-  -webkit-animation: background-animation 12s linear infinite;
+  animation: background-animation 12s linear infinite;
+      -webkit-animation: background-animation 12s linear infinite;
   -webkit-text-fill-color: transparent;
 }
 
